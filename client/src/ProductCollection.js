@@ -23,7 +23,8 @@ class ProductCollection extends Component{
                     </div>
                 )
             }
-        )
+        );
+        return ({mappedArray});
     }
 }
 
